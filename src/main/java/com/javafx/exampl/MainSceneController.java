@@ -17,6 +17,4 @@ public class MainSceneController {
     public void printBtnClick() {
         String text = myTextField.getText();
     }
-
-
 }
