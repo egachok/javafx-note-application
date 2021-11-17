@@ -24,7 +24,6 @@ public class NotesController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("WTF");
         try {
             noteList.getItems().addAll(findAllNotes());
         } catch (ServiceException e) {
